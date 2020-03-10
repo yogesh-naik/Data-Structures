@@ -1,8 +1,0 @@
-//org.eclipse.debug.core.PREFERRED_DELEGATES/com.ebay.tools.applauncher.junitCacheLaunchConfig=com.ebay.tools.applauncher.junitCacheLaunchConfig,debug;com.ebay.tools.applauncher.junitCacheLaunchConfig,run
-//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.applicationLaunchType=org.eclipse.cdt.dsf.gdb.launch.localCLaunch,debug;org.eclipse.cdt.cdi.launch.localCLaunch,run
-//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.attachLaunchType=org.eclipse.cdt.dsf.gdb.launch.attachCLaunch,debug
-//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.postmortemLaunchType=org.eclipse.cdt.dsf.gdb.launch.coreCLaunch,debug
-//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.junit.launchconfig=org.eclipse.jdt.junit.launchconfig,debug,;org.eclipse.jdt.junit.launchconfig,run,;
-//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.localJavaApplication=org.eclipse.jdt.launching.localJavaApplication,debug,;org.eclipse.jdt.launching.localJavaApplication,run,;
-eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8"?><watchExpressions>\r\n<expression enabled\="true" text\="mid"/>\r\n<expression enabled\="true" text\="arr[mid]"/>\r\n<expression enabled\="true" text\="high"/>\r\n<expression enabled\="true" text\="key"/>\r\n<expression enabled\="true" text\="low"/>\r\n<expression enabled\="true" text\="insert"/>\r\n<expression enabled\="true" text\="node.data"/>\r\n<expression enabled\="true" text\="node.data"/>\r\n<expression enabled\="true" text\="node.left"/>\r\n</watchExpressions>

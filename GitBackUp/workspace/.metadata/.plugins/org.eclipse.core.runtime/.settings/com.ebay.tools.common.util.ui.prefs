@@ -1,5 +1,0 @@
-#Sat Oct 18 13:00:16 PDT 2014
-com.ebay.kernel.wsad.toolbox.plugin.ViewCreationPerlPath=\\\\ccase04.vip.corp.ebay.com\\pools01\\scripts\\mkview\\perl\\x64\\bin\\perl.exe
-com.ebay.kernel.clearcase.inclusion=D-SJC;L-SJC;LM-SJC;V-SJC;D-SJN;L-SJN;V-SJN;SJC-VEPTS;SJC-VTS;RHV-VEPTS;SJD-VEPTS;RHV-VTS
-com.ebay.kernel.wsad.toolbox.plugin.GitCloneScript=git@github.corp.ebay.com\:SCM/workspace.git
-eclipse.preferences.version=1
