@@ -1,3 +1,0 @@
-0 [Worker-3] DEBUG com.ebay.darwin.tools.eclipse.plugin.DarwinEclipsePlugin  - plugin startup
-9 [Worker-3] DEBUG com.ebay.darwin.tools.eclipse.plugin.CodeGenerationStartup  - earlyStartup() - start
-71 [Worker-3] DEBUG com.ebay.darwin.tools.eclipse.plugin.CodeGenerationStartup  - earlyStartup() - end

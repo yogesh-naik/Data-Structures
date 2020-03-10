@@ -1,8 +1,0 @@
-package hello;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-@Respositoy
-public interface GreetingRepository extends JpaRepository<Greeting, Long> {
-
-}

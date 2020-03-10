@@ -1,1 +1,0 @@
-INSERT INTO Greetings (text) VALUES ('hello world');

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;EverNoteQuestion.java&apos; to &apos;EvernoteQuestion.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaCollection&apos;&#x0D;&#x0A;- Original element: &apos;EverNoteQuestion.java&apos;&#x0D;&#x0A;- Renamed element: &apos;EvernoteQuestion.java&apos;" description="Rename compilation unit &apos;EverNoteQuestion.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{EverNoteQuestion.java" name="EvernoteQuestion.java" references="false" stamp="1420604523820" version="1.0"/>
-</session>
