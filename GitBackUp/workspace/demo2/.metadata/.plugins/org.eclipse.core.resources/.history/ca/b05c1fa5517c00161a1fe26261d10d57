@@ -1,0 +1,25 @@
+package hello;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+imposrt org.springframework.jdbc.datasource.embedded;
+@SpringBootApplication
+public class Application {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+    
+    public void dbTest(){
+    	EmbeddedDatabase db = new EmbeddedDatabaseBuilder()
+    		    .generateUniqueName(true)
+    		    .setType(H2)
+    		    .setScriptEncoding("UTF-8")
+    		    .ignoreFailedDrops(true)
+    		    .addScript("schema.sql")
+    		    .addScripts("user_data.sql", "country_data.sql")
+    		    .build();
+    }
+}

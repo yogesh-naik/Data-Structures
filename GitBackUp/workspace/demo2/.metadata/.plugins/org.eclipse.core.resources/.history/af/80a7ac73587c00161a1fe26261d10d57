@@ -1,0 +1,9 @@
+package hello;
+
+import java.util.Collection;
+
+public interface GreetingService {
+
+	Collection<Greeting> findAll();
+
+}

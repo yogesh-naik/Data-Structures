@@ -1,0 +1,39 @@
+package controller;
+
+import java.util.Collection;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import Entity.Student;
+//import Service.StudentService;
+import hello.User;
+
+@RestController
+public class StudentController {
+
+	// @Autowired
+	// private StudentService studentService = new StudentService();
+	//
+	// @RequestMapping(value="/user",method=RequestMethod.GET)
+	// public Collection<Student> getAllStudents(){
+	// return studentService.getAllStudents();
+	// }
+
+	@RequestMapping(value = "/user", method = RequestMethod.GET)
+	public User getUSer(@RequestParam(value = "id", defaultValue = "1") int studentId,
+			@RequestParam(value = "uName", defaultValue = "chopra") String name) {
+
+		User US = new User();
+		US.setId(studentId);
+		US.setuName(name);
+
+		System.out.println("Age " + US.getId());
+		System.out.println("Name " + US.getuName());
+
+		String str = "World";
+		return US;
+	}
+}

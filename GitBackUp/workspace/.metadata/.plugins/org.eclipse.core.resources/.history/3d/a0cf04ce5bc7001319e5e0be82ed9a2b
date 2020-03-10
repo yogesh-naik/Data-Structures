@@ -1,0 +1,13 @@
+
+public class A {
+	
+	private int hour;
+	private int min;
+	
+	public A(){}
+	
+	public A(int h){
+		
+	}
+
+}

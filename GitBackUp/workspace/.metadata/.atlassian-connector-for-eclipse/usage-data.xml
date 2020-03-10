@@ -1,0 +1,6 @@
+<interactionEvent>
+  <kind>JOB</kind>
+  <date>2014-10-18 13:07:57.344 PDT</date>
+  <pluginId>com.atlassian.connector.eclipse.internal.jira.core</pluginId>
+  <eventId>logout</eventId>
+</interactionEvent>

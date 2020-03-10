@@ -1,0 +1,35 @@
+
+public class StackDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Stack st = new Stack();
+		 
+		
+	   
+		st.push(-222);
+	    st.push(50);
+	   // System.out.println(st.pop());
+	    st.push(70);
+	    st.push(190);
+	   	   
+	    st.displayStack();
+	    
+//	    Stack st2 = new Stack();
+//	    
+//	    st2.push(st.pop());
+//	    st2.push(st.pop());
+//	    st2.push(st.pop());
+//	    st2.push(st.pop());
+	    
+	    st2.displayStack();
+	    
+	    
+
+	}
+
+}

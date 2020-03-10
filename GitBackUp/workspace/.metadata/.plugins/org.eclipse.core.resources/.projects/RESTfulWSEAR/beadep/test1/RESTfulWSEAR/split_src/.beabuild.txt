@@ -1,0 +1,4 @@
+C\:/Users/ynaik/workspace/RESTfulWSEAR/EarContent/APP-INF/classes = APP-INF/classes
+C\:/Users/ynaik/workspace/RESTfulWS/WebContent = RESTfulWS.war
+C\:/Users/ynaik/workspace/.metadata/.plugins/org.eclipse.core.resources/RESTfulWS/build/weboutput = RESTfulWS.war
+C\:/Users/ynaik/workspace/RESTfulWS/build/classes = RESTfulWS.war/WEB-INF/classes

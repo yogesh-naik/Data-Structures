@@ -1,0 +1,28 @@
+
+public class Stack {
+
+	LinkedList li = new LinkedList();
+
+	public void push(int data) {
+	    li.insertFirst(data);
+	}
+
+	public int pop() {
+	    if(!li.isEmpty()){
+	    	int temp = li.deleteFirst();
+	    	return temp;
+	    }
+//	    else{
+//	    	System.out.println("Stack is empty");
+//	    }
+	    else
+	    	return 0;
+	}
+
+	public void displayStack() {
+	    System.out.println("  ");
+	   
+	    	li.displayList();
+	  
+	  }
+}

@@ -1,0 +1,5 @@
+package hello;
+
+public class GreetingServiceBean  implements GreetingService{
+
+}

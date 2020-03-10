@@ -1,0 +1,4 @@
+#Sat Oct 18 13:00:16 PDT 2014
+com.ebay.kernel.wsad.toolbox.plugin.BuildCommand=Build.pl -deliverable Unified -useProjects GlobalEnvironment -pooltype feature -locale core -poolname ${host.name}.dev.ebay.com -train e999 -release R1 -dbenv staging -eclipse -container ce -clean -keepjars -includeTests
+com.ebay.kernel.wsad.toolbox.plugin.ValidationOnSave=true
+eclipse.preferences.version=1

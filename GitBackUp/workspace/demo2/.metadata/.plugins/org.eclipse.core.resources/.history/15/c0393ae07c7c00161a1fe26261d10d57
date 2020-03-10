@@ -1,0 +1,6 @@
+##
+#  Data source configuration
+##
+
+#Hibernate
+spring.jpa.hibernate.naming.implicit-strategy=org.hibernate.cfg.DefaultNamingStrategy

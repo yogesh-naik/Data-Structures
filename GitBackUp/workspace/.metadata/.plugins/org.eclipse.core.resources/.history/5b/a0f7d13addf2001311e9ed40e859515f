@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+/*
+ * Remove the duplicate of chars from Strings
+ * Again O(n) is iteration and not 2 for loops
+ */
+public class removeDuplicateChars {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "Hello world Yogesh";
+		List<Character>ls = new ArrayList<>();
+		HashMap<Character, Integer> HT = new HashMap<Character, Integer>();
+		int count =0;
+		for(int i=0;i<=str.length()-1;i++){
+			if((HT.containsKey(str.charAt(i)))){
+				ls.add(str.charAt(i));
+				//System.out.println("After removing the unique chars in the string "+ ls.toString().replaceAll(",", " "));
+			}
+			else{
+				HT.put(str.charAt(i), count++);
+			}
+		}
+		System.out.println("After removing the unique chars in the string "+ HT.keySet().toString());
+
+	}
+
+}

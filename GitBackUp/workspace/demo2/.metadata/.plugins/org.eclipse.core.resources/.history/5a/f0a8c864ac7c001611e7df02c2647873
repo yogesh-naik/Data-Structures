@@ -1,0 +1,17 @@
+package controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import Service.StudentService;
+
+@RestController
+public class StudentController {
+
+	@Autowired
+	private StudentService studentService;
+	
+	public Collection<Student> getAllStudents(){
+		
+	}
+}

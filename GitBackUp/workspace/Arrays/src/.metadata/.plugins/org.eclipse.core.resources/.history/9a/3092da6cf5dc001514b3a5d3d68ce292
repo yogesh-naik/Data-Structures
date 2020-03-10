@@ -1,0 +1,19 @@
+
+public class IsArraySorted {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	static boolean isSortedArray(int a[]){
+		
+		int i =1;
+		if(i<a.length-2 && a[i] < a[i+1]){
+			i++;
+			return isSortedArray(a);
+		}
+		return false;
+	}
+
+}

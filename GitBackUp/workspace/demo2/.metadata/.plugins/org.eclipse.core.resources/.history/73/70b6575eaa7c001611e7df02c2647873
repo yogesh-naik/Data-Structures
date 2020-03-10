@@ -1,0 +1,7 @@
+package Dao;
+
+public class StudenDao {
+
+	private static Map<Integer,Student>students;
+	
+}

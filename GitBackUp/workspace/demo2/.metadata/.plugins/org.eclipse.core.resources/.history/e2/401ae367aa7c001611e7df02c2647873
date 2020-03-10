@@ -1,0 +1,11 @@
+package Dao;
+
+import java.util.Map;
+
+import Service.Student;
+
+public class StudenDao {
+
+	private static Map<Integer,Student>students;
+	
+}

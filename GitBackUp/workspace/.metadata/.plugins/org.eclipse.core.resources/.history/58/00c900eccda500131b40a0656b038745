@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+
+public class BinaryToDecimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Integer>a = new ArrayList<Integer>();
+		//ArrayList<String> myList = new ArrayList<String>();
+
+	}
+
+}

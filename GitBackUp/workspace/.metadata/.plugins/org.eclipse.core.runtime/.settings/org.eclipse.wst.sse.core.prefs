@@ -1,0 +1,4 @@
+#Wed Dec 10 23:03:04 PST 2014
+task-tag-projects-already-scanned=Arrays,FileReadWrite,JavaCollection,Loops,RESTfulWS,RESTfulWSEAR,RemoteSystemsTempFiles,ScratchPad,Servers,String,TestJSP,TestNG,XML,car,json,objectoriented,sample,staticExample,LinkedList,Stacks,Queue,Sorting,DataStructures
+eclipse.preferences.version=1
+modelmanager.maxWaitDuringConcurrentLoad=30000
